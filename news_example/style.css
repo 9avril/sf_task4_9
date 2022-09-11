@@ -1,0 +1,107 @@
+header {
+	height: 400px;
+	background-color: gainsboro;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+		url("https://sun9-west.userapi.com/sun9-39/s/v1/ig2/7OiB8uA4hZ9c18aTMhOJV2VKrApComFzGpqOF32ISO_y3gJ8FSOJco9Tl-C-PyClmjazzV1y096nYC4iSHqtWmWe.jpg?size=2048x1280&quality=95&type=album");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	font-size: 28px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: #f7f2e6;
+}
+
+footer {
+	padding-top: 18px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+footer .links {
+	margin-bottom: 50px;
+}
+
+footer .links > a {
+	color: rgba(0, 0, 0, 0.65);
+	padding: 0, 25px;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.copyright {
+	color: rgba(10, 5, 20, 0.5);
+}
+
+.news {
+	background-color: #fff;
+	padding: 50px 0 32px;
+}
+
+article {
+	width: 768px;
+	margin-left: auto;
+	padding: 6px 15px;
+	margin-right: auto;
+	border-bottom: 1px, solid, rgb(128, 118, 110);
+	width: 55em;
+}
+
+article a {
+	color: rgba(33, 37, 43, 0.9);
+	text-decoration: none;
+}
+
+article a:hover {
+	color: rgba(105, 105, 105, 0.9);
+}
+
+article h2 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 5px;
+}
+
+.article-meta {
+	color: rgba(33, 37, 43, 0.9);
+	padding-bottom: 8px;
+}
+
+article img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.publisher {
+	color: rgba(33, 37, 43, 0.8);
+}
+
+.news-desc {
+	font-size: 17px;
+}
+
+.belta {
+	color: darkcyan;
+	text-decoration: none;
+}
+
+.art-2 {
+	background-color: #fcf8f0;
+	border-radius: 20px;
+}
